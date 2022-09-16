@@ -1,0 +1,86 @@
+.Rockets {
+  color: white;
+  background: rgba(0, 0, 0, 0.206);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  text-decoration: none;
+  padding: 2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Rockets :link {
+  text-decoration: none;
+}
+.Rockets ul {
+  padding: 0%;
+}
+.Rockets li {
+  
+  list-style: none;
+}
+
+.Rockets .List li {
+  margin: 2rem;
+}
+
+.Rockets .List li img {
+  width: 116px;
+  border-radius: 8px;
+}
+
+.Rockets .List li a {
+  color: white;
+  padding: 1.5rem;
+  min-width: 100px;
+  background: rgba(0, 0, 0, 0.206);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Rockets .List li p {
+  margin: 2rem;
+  font-size: 16px;
+}
+
+.Rockets .List li:hover {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 8px;
+}
+
+.Rockets li:active {
+  background-color: #B362FF; 
+}
+
+.Rockets .Pages {
+  display: flex;
+}
+
+
+.Rockets .Pages li {
+  margin: 4px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: auto;
+}
+
+.Rockets .Pages li:hover {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 8px;
+}
+
+.Rockets .Pages li button {
+  color: white;
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.206);
+  border-radius: 8px;
+  border-style: none;
+  cursor: pointer;
+
+}

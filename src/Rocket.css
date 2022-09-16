@@ -1,0 +1,30 @@
+.HandleRocket {
+  display: flex;
+  margin: 0 2rem;
+}
+.Rocket {
+  color: white;
+  background: rgba(0, 0, 0, 0.206);
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 1rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Rocket h2 {
+  color: #B362FF;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Rocket p {
+  margin: 8px;
+  max-width: 675px;
+
+}
+.Rocket img {
+  width: 400px;
+  margin: 1.5rem;
+  border-radius: 8px;
+}
